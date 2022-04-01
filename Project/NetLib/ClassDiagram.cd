@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Session" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA4ZggBCACiAAQAYAAAhBJQAACAAAAAAEACigLAIAAE=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionManager" Collapsed="true">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAIAAAIAAAAAAAAgAABAEAAAAKAAAAAAAIAAA=</HashCode>
+      <FileName>SessionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OdbcDB" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAQgCAABAARAIAAAAAAAQCAAAACABAAAAE=</HashCode>
+      <FileName>OdbcDB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" Collapsed="true">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAIAAAADRAAQQABEBACIBgAAAAAAAABAACAgAAQAACA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SyncList&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YQQAAEAAAAAAAACAAAAABAAACAAAAAAAAAAAAIAoCAA=</HashCode>
+      <FileName>SyncList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SyncQueue&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAAAAAQCAAAAAAAAAAAAAAgAAAAgAAACICAA=</HashCode>
+      <FileName>SyncQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RingBuffer" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAACBIRQAIQAAAAAAAAAAAAAAAAAEAAACggAgAMAAA=</HashCode>
+      <FileName>RingBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SyncStack&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAGAAAAIAAAAAAAAQAABAAAAAAAICAA=</HashCode>
+      <FileName>SyncStack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompletionHandler" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKARAAAAACAAEAgAAgAABAAAAAAIAAACAAAACAA=</HashCode>
+      <FileName>CompletionHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSocket" Collapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAAAAAAAAAAAAAAAQACIAAAABAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acceptor&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAAQAI=</HashCode>
+      <FileName>Acceptor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thread" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ApABAACAAQBAAAAAAAAAgAAAgAAAAQAAAAAAAAAAAAI=</HashCode>
+      <FileName>Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerThread" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAIAAI=</HashCode>
+      <FileName>WorkerThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoveSession" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAIAAAAAAAAAAAABAEAAAAIAAAAAAAAIAI=</HashCode>
+      <FileName>RemoveSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TickThread" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAgAABAAAARAAgAgAAAAAAAAQEAAAAAAAAAACI=</HashCode>
+      <FileName>TickThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadManager" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAAAgAAAEAAAAABQAAAAAIAAAAABAAAAA=</HashCode>
+      <FileName>ThreadManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OVERLAPPEDEX" Collapsed="true">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAIAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ColumnInfo" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAACAAAAACAAAAAAJiAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OdbcDB.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TableInfo" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>OdbcDB.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Field" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>OdbcDB.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Record" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OdbcDB.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PACKET_HEADER" Collapsed="true">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DEFAULT_PACKET" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ClientInfo" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAIAAAQAAAAAAAAAAAAAAAAAAAABIAAAAAA=</HashCode>
+      <FileName>std.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="IO_TYPE" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Session.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
